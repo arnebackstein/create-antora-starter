@@ -1,5 +1,5 @@
 site:
-  title: Betterbits Antora
+  title: Antora Starter
   url: http://localhost:3000
 
 content:

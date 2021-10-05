@@ -1,9 +1,12 @@
 {
   "name": "create-antora-starter",
   "version": "1.0.0",
-  "description": "Pbt Docs powered by Antora",
+  "description": "Antora Starter",
+  "bin": {
+    "create-antora-starter": "bin/cli.js"
+  },
   "scripts": {
-    "build": "antora antora-playbook.yml",
+    "build": "node ./bin/builder.js",
     "watcher": "node watcher.js"
   },
   "devDependencies": {
@@ -29,5 +32,13 @@
     "hotreload"
   ],
   "author": "Arne Backstein",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arnebackstein/create-antora-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arnebackstein/create-antora-starter/issues"
+  },
+  "homepage": "https://github.com/arnebackstein/create-antora-starter#readme"
 }

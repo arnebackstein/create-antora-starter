@@ -1,3 +1,2 @@
-= Read first
-
-read get Started first
+= Welcome
+Edit this page in src/ROOT/pages/index.adoc
