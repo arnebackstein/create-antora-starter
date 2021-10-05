@@ -1,0 +1,33 @@
+{
+  "name": "create-antora-starter",
+  "version": "1.0.0",
+  "description": "Pbt Docs powered by Antora",
+  "scripts": {
+    "build": "antora antora-playbook.yml",
+    "watcher": "node watcher.js"
+  },
+  "devDependencies": {
+    "@antora/cli": "2.3",
+    "@antora/site-generator-default": "^2.3.4",
+    "antora-site-generator-lunr": "^0.6.1",
+    "asciidoctor-kroki": "^0.14.0",
+    "browser-sync": "^2.27.5",
+    "chokidar": "^3.5.2",
+    "node-hmr": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=14.15.1"
+  },
+  "dependencies": {
+    "antora-lunr": "^0.8.0"
+  },
+  "main": "watcher.js",
+  "keywords": [
+    "antora",
+    "starter",
+    "lunr",
+    "hotreload"
+  ],
+  "author": "Arne Backstein",
+  "license": "ISC"
+}

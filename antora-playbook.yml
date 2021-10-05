@@ -1,0 +1,24 @@
+site:
+  title: Betterbits Antora
+  url: http://localhost:3000
+
+content:
+  sources:
+    - url: ../
+      start_path: /docs/src
+      branches: HEAD
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+  supplemental_files: ./supplemental_ui
+asciidoc:
+  extensions:
+    - asciidoctor-kroki
+
+runtime:
+  cache_dir: ./target/.cache/antora
+
+output:
+  clean: true
+  dir: ./target/site

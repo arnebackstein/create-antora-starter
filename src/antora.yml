@@ -1,0 +1,5 @@
+name: betterbits
+title: Betterbits Antora
+version: '3.5'
+nav:
+  - modules/ROOT/nav.adoc
