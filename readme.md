@@ -1,5 +1,5 @@
 # Antora starter
-This npx starter sets up an Antora docs folder with the basic folder structure. It has [lunr](https://lunrjs.com/) and hot-reload pre configured.
+This npx starter sets up an Antora docs folder with the basic folder structure. It has [lunr](https://lunrjs.com/), asciidoctor-kroki extension and hot-reload pre configured.
 
 In your project root directory run the following command to setup Antora docs.
 ```bash

@@ -3,8 +3,8 @@ site:
 
 content:
   sources:
-    - url: ../
-      start_path: /docs/src
+    - url: ./
+      start_path: ./docs
       branches: HEAD
 ui:
   bundle:
@@ -16,8 +16,8 @@ asciidoc:
     - asciidoctor-kroki
 
 runtime:
-  cache_dir: ./target/.cache/antora
+  cache_dir: ./.cache/antora
 
 output:
   clean: true
-  dir: ./target/site
+  dir: ./dist
