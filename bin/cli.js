@@ -15,7 +15,7 @@ const runCommand = command => {
 const repoName = "docs";
 const gitCheckoutCommand = `git clone --depth 1 https://github.com/arnebackstein/create-antora-starter.git ${repoName}`;
 const installDepsCommand = `cd ${repoName} && npm install`;
-const removeDotGitCommand = `rm .git`;
+const removeDotGitCommand = `rm .git && rm .gitignore`;
 
 console.log(`Cloning the repository with name ${repoName}`);
 const checkedOut = runCommand(gitCheckoutCommand);

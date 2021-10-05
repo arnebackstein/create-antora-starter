@@ -7,7 +7,7 @@
   },
   "scripts": {
     "build": "node ./bin/builder.js",
-    "watcher": "node watcher.js"
+    "watcher": "node ./bin/watcher.js"
   },
   "devDependencies": {
     "@antora/cli": "2.3",
