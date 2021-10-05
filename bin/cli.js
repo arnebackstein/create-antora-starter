@@ -12,10 +12,10 @@ const runCommand = command => {
   return true;
 }
 
-const repoName = process.argv[2] != "undefined" ? process.argv[2] : "docs";
+const repoName = "docs";
 const gitCheckoutCommand = `git clone --depth 1 https://github.com/arnebackstein/create-antora-starter.git ${repoName}`;
 const installDepsCommand = `cd ${repoName} && npm install`;
-const removeDotGitCommand = `rm -r .git`;
+const removeDotGitCommand = `rm .git`;
 
 console.log(`Cloning the repository with name ${repoName}`);
 const checkedOut = runCommand(gitCheckoutCommand);
