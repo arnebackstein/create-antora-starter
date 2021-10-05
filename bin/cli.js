@@ -27,5 +27,6 @@ if(!installedDeps) process.exit(-1);
 
 console.log('\x1b[43m\x1b[37m', "IMPORTANT", '\x1b[0m',"The directory you run this command in must be a git repo. If it isn't already run");
 console.log("\x1b[36m",`git init`, '\x1b[0m');
+console.log("In the readme file you will find further instructions to git and antora.")
 console.log('\x1b[32m', "Congratulations!,", '\x1b[0m',"You are ready. Follow the following commands to start");
 console.log('\x1b[36m', `cd ${repoName} && npm run watcher`, '\x1b[0m');

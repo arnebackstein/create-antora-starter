@@ -1,6 +1,5 @@
 site:
   title: Antora Starter
-  url: http://localhost:3000
 
 content:
   sources:
