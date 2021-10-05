@@ -1,5 +1,5 @@
 name: antora-starter
 title: Antora Starter
-version: '3.5'
+version: '1.0'
 nav:
   - modules/ROOT/nav.adoc
