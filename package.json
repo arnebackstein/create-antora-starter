@@ -15,8 +15,7 @@
     "antora-site-generator-lunr": "^0.6.1",
     "asciidoctor-kroki": "^0.14.0",
     "browser-sync": "^2.27.5",
-    "chokidar": "^3.5.2",
-    "node-hmr": "^1.2.0"
+    "js-yaml": "^4.1.0"
   },
   "engines": {
     "node": ">=14.15.1"

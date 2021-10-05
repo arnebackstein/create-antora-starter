@@ -1,2 +1,6 @@
 node_modules/
 package-lock.json
+
+# Output and cache dirs
+dist/
+.cache/
