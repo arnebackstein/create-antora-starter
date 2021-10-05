@@ -29,7 +29,8 @@ runAntora().then(() => {
         });
 
     bs.init({
-      server: './target/site'
-    })
+      server: './target/site',
+      startPath: `/antora-starter/1.0/index.html`
+    });
 
 }).catch((e)=>console.error(e));

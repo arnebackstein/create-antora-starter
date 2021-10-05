@@ -1,2 +1,3 @@
-= Welcome
+= Welcome🎉
+
 Edit this page in src/ROOT/pages/index.adoc
